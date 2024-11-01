@@ -1,0 +1,44 @@
+.swiper-button-prev {
+    left: 20% !important;
+    background-color: #fff;
+    color: black;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.swiper-button-next {
+    left: 75% !important;
+    background-color: #fff;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+/* responsive tablet device */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .swiper-button-prev {
+        left: 80% !important;
+    }
+    
+    .swiper-button-next {
+        left: 87% !important;
+    }
+}
+
+
+/* responsive mobile device */
+@media screen and (max-width: 576px) {
+    .swiper-button-prev {
+        left: 12% !important;
+        top: 8%;
+    }
+
+    .swiper-button-next {
+        left: 27% !important;
+        top: 8%;
+    }
+}
