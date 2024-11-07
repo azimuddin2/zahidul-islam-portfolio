@@ -9,7 +9,6 @@ const Navbar = () => {
         <li>
             <CustomLink to='/'>Home</CustomLink>
             <CustomLink to='/projects'>Projects</CustomLink>
-            <CustomLink to='/blog'>Blog</CustomLink>
             <CustomLink to='/mentorship'>Mentorship</CustomLink>
             <CustomLink to='/behind'>Behind The Scene</CustomLink>
             <CustomLink to='/contact'>Contact</CustomLink>

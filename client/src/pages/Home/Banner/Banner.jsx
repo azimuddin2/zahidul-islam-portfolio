@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <section>
             <div
-                className="hero min-h-screen lg:pt-80 lg:pb-40 bg-fixed"
+                className="hero min-h-screen lg:pt-96 lg:pb-40 bg-fixed"
                 style={{
                     backgroundImage: `url(${zahidulIslamImg})`,
                     width: '100%',
