@@ -1,5 +1,6 @@
 import React from 'react';
 import person from '../../assets/images/person.png';
+import Projects from '../../components/Projects/Projects';
 
 const Behind = () => {
     return (
@@ -34,6 +35,7 @@ const Behind = () => {
                     </div>
                 </div>
             </div>
+            <Projects></Projects>
         </section>
     );
 };

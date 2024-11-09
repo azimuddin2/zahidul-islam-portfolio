@@ -36,7 +36,7 @@ const Navbar = () => {
                         </label>
                         <ul
                             tabIndex="0"
-                            className="responsive-navbar menu menu-compact dropdown-content mt-3 p-4 shadow bg-base-100 w-64 right-6 font-medium"
+                            className="responsive-navbar menu menu-compact dropdown-content mt-3 p-4 shadow bg-base-100 w-64 right-6 font-medium z-10"
                         >
                             {navOptions}
                         </ul>

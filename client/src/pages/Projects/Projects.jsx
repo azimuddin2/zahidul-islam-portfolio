@@ -18,9 +18,9 @@ const Projects = () => {
                         <img src={project2} alt='banner' />
                     </div>
                 </Carousel>
-                <div className='my-10 lg:w-2/3 mx-auto'>
-                    <h1 className='text-3xl text-primary font-medium text-center border-b pb-5 font-family'>Light of the Sound: 'Human Library' for visually impaired students of Bangladesh</h1>
-                    <p className='mt-8 text-secondary'>Always been passionate about working for the visually impaired people; here I am doing something for the very first time in Bangladesh to promote literature literacy for the visually impaired student to ensure SDG -4 under the concept of ' Human Library'.
+                <div className='my-10 lg:w-2/3 mx-auto px-5 lg:px-0'>
+                    <h1 className='text-xl lg:text-3xl text-primary font-medium text-center border-b pb-5 font-family'>Light of the Sound: 'Human Library' for visually impaired students of Bangladesh</h1>
+                    <p className='lg:mt-8 mt-5 text-secondary'>Always been passionate about working for the visually impaired people; here I am doing something for the very first time in Bangladesh to promote literature literacy for the visually impaired student to ensure SDG -4 under the concept of ' Human Library'.
                     </p>
                 </div>
             </div>
@@ -33,9 +33,9 @@ const Projects = () => {
                         <img src={project2} alt='banner' />
                     </div>
                 </Carousel>
-                <div className='my-10 lg:w-2/3 mx-auto'>
-                    <h1 className='text-3xl text-primary font-medium text-center border-b pb-5 font-family'>Light of the Sound: 'Human Library' for visually impaired students of Bangladesh</h1>
-                    <p className='mt-8 text-secondary'>Always been passionate about working for the visually impaired people; here I am doing something for the very first time in Bangladesh to promote literature literacy for the visually impaired student to ensure SDG -4 under the concept of ' Human Library'.
+                <div className='my-10 lg:w-2/3 mx-auto px-5 lg:px-0'>
+                    <h1 className='text-xl lg:text-3xl text-primary font-medium text-center border-b pb-5 font-family'>Light of the Sound: 'Human Library' for visually impaired students of Bangladesh</h1>
+                    <p className='lg:mt-8 mt-5 text-secondary'>Always been passionate about working for the visually impaired people; here I am doing something for the very first time in Bangladesh to promote literature literacy for the visually impaired student to ensure SDG -4 under the concept of ' Human Library'.
                     </p>
                 </div>
             </div>

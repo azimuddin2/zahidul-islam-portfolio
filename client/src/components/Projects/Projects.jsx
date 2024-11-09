@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -74,7 +75,9 @@ const Projects = () => {
                 </div>
             </Swiper>
             <div className='mt-8 text-center'>
-                <button className="btn btn-outline btn-warning rounded-sm hover:text-neutral">View All Projects</button>
+                <Link to={'/projects'}>
+                    <button className="btn btn-outline btn-warning rounded-sm hover:text-neutral">View All Projects</button>
+                </Link>
             </div>
         </section>
     );

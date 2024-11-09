@@ -4,6 +4,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 import { GrLocation } from 'react-icons/gr';
 import { HiOutlineMail } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 const Contact = () => {
 
@@ -30,7 +31,7 @@ const Contact = () => {
         <section className="max-w-screen-xl lg:mx-auto mx-5 my-8 lg:my-20">
             <div className="text-center mb-5 lg:mb-8">
                 <h2 className="text-lg lg:text-xl text-primary font-medium">Contact Us</h2>
-                <h1 className="text-2xl lg:text-3xl font-medium text-secondary capitalize">Stay connected with us</h1>
+                <h1 className="text-2xl font-medium text-secondary capitalize">Stay connected with us</h1>
             </div>
             <div className="lg:flex justify-between items-center">
                 <div className="flex-1">
@@ -46,11 +47,11 @@ const Contact = () => {
                         <span>https://daffodilvarsity.edu.bd</span>
                     </Link>
 
-                    <div className='mt-5'>
-                        <h2>
+                    <div className='my-10 text-secondary'>
+                        <p>
                             Country Ambassador & Mentor | Awareness 360 |
                             105 Jalan Ampang, Kuala Lumpur, Malaysia
-                        </h2>
+                        </p>
 
                         <Link
                             target={"_blank"}
@@ -60,13 +61,12 @@ const Contact = () => {
                             <FaLinkSlash className='text-lg mr-2' />
                             <span>https://www.awareness360.org.my</span>
                         </Link>
-
                     </div>
 
                     <div className='mt-5'>
-                        <h2>
+                        <p className='text-secondary'>
                             General Member  | Sustainable Journalism Partnership
-                        </h2>
+                        </p>
 
                         <Link
                             target={"_blank"}
@@ -81,15 +81,15 @@ const Contact = () => {
 
                     <div className="mt-5 lg:mt-10">
                         <p className="flex items-center mb-2 text-accent">
-                            <FiPhoneCall className="text-lg text-primary mr-2" />
+                            <FiPhoneCall className="text-lg text-warning mr-2" />
                             <span>(+880) 1774506981</span>
                         </p>
                         <p className="flex items-center mb-2 text-accent">
-                            <HiOutlineMail className="text-lg text-primary mr-2" />
+                            <HiOutlineMail className="text-lg text-warning mr-2" />
                             <span>zahidul.jmc0038.c@diu.edu.bd</span>
                         </p>
                         <p className="flex items-center text-accent">
-                            <GrLocation className="text-lg text-primary mr-2" />
+                            <GrLocation className="text-lg text-warning mr-2" />
                             <span>Dhaka-Bangladesh</span>
                         </p>
                     </div>
@@ -120,11 +120,10 @@ const Contact = () => {
                                 className="select bg-neutral text-secondary border-secondary select-bordered rounded-md focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
                             >
                                 <option disabled selected className="text-accent">Select Your Service</option>
-                                <option>Website Design</option>
-                                <option>Responsive Website</option>
-                                <option>Frontend Development</option>
-                                <option>Backend Development</option>
-                                <option>Full Stack Development</option>
+                                <option>Department of Lecturer</option>
+                                <option>Department of Journalism </option>
+                                <option>Department of Media</option>
+                                <option>Department of Communication</option>
                             </select>
                         </div>
                         <div className="form-control">
