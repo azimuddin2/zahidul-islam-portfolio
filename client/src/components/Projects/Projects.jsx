@@ -4,9 +4,9 @@ import { A11y, Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
-import project1 from '../../../assets/images/project1.png';
-import project2 from '../../../assets/images/project2.jpg';
-import project3 from '../../../assets/images/project3.png';
+import project1 from '../../assets/images/project1.png';
+import project2 from '../../assets/images/project2.jpg';
+import project3 from '../../assets/images/project3.png';
 import Project from './Project';
 import './projects.css';
 
@@ -74,7 +74,7 @@ const Projects = () => {
                 </div>
             </Swiper>
             <div className='mt-8 text-center'>
-                <button className="btn btn-outline btn-warning rounded-sm hover:text-white">View All Projects</button>
+                <button className="btn btn-outline btn-warning rounded-sm hover:text-neutral">View All Projects</button>
             </div>
         </section>
     );

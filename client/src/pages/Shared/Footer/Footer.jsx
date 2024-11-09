@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
-import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <footer className="footer footer-center bg-primary text-white rounded p-10">
             <nav className="grid lg:grid-flow-col grid-flow-row gap-4">
                 <Link to='/' className="link link-hover">Home</Link>
-                <Link to='/' className="link link-hover">Projects</Link>
-                <Link to='/' className="link link-hover">Mentorship</Link>
-                <Link to='/' className="link link-hover">Behind The Scene</Link>
-                <Link to='/' className="link link-hover">Contact</Link>
+                <Link to='/projects' className="link link-hover">Projects</Link>
+                <Link to='/mentorship' className="link link-hover">Mentorship</Link>
+                <Link to='/behind' className="link link-hover">Behind The Scene</Link>
+                <Link to='/contact' className="link link-hover">Contact</Link>
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">
@@ -25,7 +25,7 @@ const Footer = () => {
                         <FaLinkedin className='text-2xl hover:text-[#E58517]'></FaLinkedin>
                     </a>
                     <a href='#'>
-                        <FaWhatsapp className='text-2xl hover:text-[#E58517]'></FaWhatsapp>
+                        <FaTwitter className='text-2xl hover:text-[#E58517]'></FaTwitter>
                     </a>
                 </div>
             </nav>
