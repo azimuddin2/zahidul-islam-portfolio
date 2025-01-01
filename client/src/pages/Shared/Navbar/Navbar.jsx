@@ -18,13 +18,13 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar bg-base-100 px-5 lg:px-20">
-                <div className="navbar-start">
+                <div className="navbar-start lg:w-1/4">
                     <Link to='/' className='flex justify-items-center items-center'>
                         <img className='w-6 md:w-9' src={logo} alt="logo" />
                         <p className=' font-semibold lg:text-xl text-primary'>Zahidul Islam</p>
                     </Link>
                 </div>
-                <div className='navbar-end hidden lg:flex items-center'>
+                <div className='navbar-end hidden lg:flex items-center lg:w-3/4'>
                     <ul className="menu-horizontal p-0 font-medium">
                         {navOptions}
                     </ul>
