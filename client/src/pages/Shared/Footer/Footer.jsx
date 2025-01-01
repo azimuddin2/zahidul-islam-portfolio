@@ -15,18 +15,18 @@ const Footer = () => {
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">
-                    <a href='#'>
+                    <Link to='/'>
                         <FaFacebook className='text-2xl hover:text-[#E58517]'></FaFacebook>
-                    </a>
-                    <a href='#'>
+                    </Link>
+                    <Link to='/'>
                         <FaInstagram className='text-2xl hover:text-[#E58517]'></FaInstagram>
-                    </a>
-                    <a href='#'>
+                    </Link>
+                    <Link to='https://bd.linkedin.com/in/zahidul-islam-jobair' target={"_blank"}>
                         <FaLinkedin className='text-2xl hover:text-[#E58517]'></FaLinkedin>
-                    </a>
-                    <a href='#'>
+                    </Link>
+                    <Link to='https://www.threads.net/@zahidulislamjobair' target={"_blank"}>
                         <FaTwitter className='text-2xl hover:text-[#E58517]'></FaTwitter>
-                    </a>
+                    </Link>
                 </div>
             </nav>
             <aside>
